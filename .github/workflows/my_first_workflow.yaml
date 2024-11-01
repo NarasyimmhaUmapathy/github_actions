@@ -13,4 +13,4 @@ jobs:
         run: |
           python3 -V
           touch my_file_with_workflow_2.py
-          ls -l
+          ls ${{ github.workspace }}
