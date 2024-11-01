@@ -18,5 +18,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: printing repo files
-        run: |
-	  ls ${{ github.workspace }}
+        run:  ls ${{ github.workspace }}
